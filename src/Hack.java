@@ -4,18 +4,15 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.util.Random;
 
-/**
- * Created by chenliang on 2018/1/1.
- */
+
 public class Hack {
 
 
-    static final String ADB_PATH = "/Users/chenliang/Library/Android/sdk/platform-tools/adb";
+    static final String ADB_PATH = "/Users/deanzhang/Documents/android-sdk-macosx/platform-tools/adb";
 
-    /**
-     * 弹跳系数，现在已经会自动适应各种屏幕，请不要修改。
-     */
-    static final double JUMP_RATIO = 1.390f;
+
+
+    static final double JUMP_RATIO = 1.365f;
 
     private static Random RANDOM = new Random();
 
